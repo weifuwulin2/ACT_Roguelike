@@ -1,0 +1,547 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "GBWPHAsyncTaskBase.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
+class UCharacterMovementComponent;
+class UGBWPHAsync_SetTimer;
+class UGBWPHAsyncActionObject;
+class UGBWPHAsyncTaskBase;
+class UGBWPlayMontageCallbackProxy;
+class UObject;
+class USkeletalMeshComponent;
+enum class ERootMotionAccumulateMode : uint8;
+struct FBranchingPointNotifyPayload;
+struct FGBWPH_MontagePlayState;
+struct FTimerHandle;
+#ifdef GBWPOWERFULHIT_GBWPHAsyncTaskBase_generated_h
+#error "GBWPHAsyncTaskBase.generated.h already included, missing '#pragma once' in GBWPHAsyncTaskBase.h"
+#endif
+#define GBWPOWERFULHIT_GBWPHAsyncTaskBase_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_22_DELEGATE \
+GBWPOWERFULHIT_API void FAsyncTaskDelegate_DelegateWrapper(const FMulticastScriptDelegate& AsyncTaskDelegate, UGBWPHAsyncActionObject* ActionObj);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAction_ExecutableStart); \
+	DECLARE_FUNCTION(execAction_IsRunning); \
+	DECLARE_FUNCTION(execOnActionFinishd); \
+	DECLARE_FUNCTION(execOnActionUpdate); \
+	DECLARE_FUNCTION(execOnActionAbort); \
+	DECLARE_FUNCTION(execOnActionStart);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAction_ExecutableStart); \
+	DECLARE_FUNCTION(execAction_IsRunning); \
+	DECLARE_FUNCTION(execOnActionFinishd); \
+	DECLARE_FUNCTION(execOnActionUpdate); \
+	DECLARE_FUNCTION(execOnActionAbort); \
+	DECLARE_FUNCTION(execOnActionStart);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsyncActionObject(); \
+	friend struct Z_Construct_UClass_UGBWPHAsyncActionObject_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsyncActionObject, UGBWPowerfulHitNetWorkObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsyncActionObject)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_INCLASS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsyncActionObject(); \
+	friend struct Z_Construct_UClass_UGBWPHAsyncActionObject_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsyncActionObject, UGBWPowerfulHitNetWorkObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsyncActionObject)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGBWPHAsyncActionObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPHAsyncActionObject) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsyncActionObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsyncActionObject); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsyncActionObject(UGBWPHAsyncActionObject&&); \
+	NO_API UGBWPHAsyncActionObject(const UGBWPHAsyncActionObject&); \
+public: \
+	NO_API virtual ~UGBWPHAsyncActionObject();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsyncActionObject(UGBWPHAsyncActionObject&&); \
+	NO_API UGBWPHAsyncActionObject(const UGBWPHAsyncActionObject&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsyncActionObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsyncActionObject); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPHAsyncActionObject) \
+	NO_API virtual ~UGBWPHAsyncActionObject();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_24_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_27_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GBWPOWERFULHIT_API UClass* StaticClass<class UGBWPHAsyncActionObject>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCreateGBWPHAsyncTask);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCreateGBWPHAsyncTask);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsyncTaskBase(); \
+	friend struct Z_Construct_UClass_UGBWPHAsyncTaskBase_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsyncTaskBase, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsyncTaskBase)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_INCLASS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsyncTaskBase(); \
+	friend struct Z_Construct_UClass_UGBWPHAsyncTaskBase_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsyncTaskBase, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsyncTaskBase)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGBWPHAsyncTaskBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPHAsyncTaskBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsyncTaskBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsyncTaskBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsyncTaskBase(UGBWPHAsyncTaskBase&&); \
+	NO_API UGBWPHAsyncTaskBase(const UGBWPHAsyncTaskBase&); \
+public: \
+	NO_API virtual ~UGBWPHAsyncTaskBase();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGBWPHAsyncTaskBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsyncTaskBase(UGBWPHAsyncTaskBase&&); \
+	NO_API UGBWPHAsyncTaskBase(const UGBWPHAsyncTaskBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsyncTaskBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsyncTaskBase); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPHAsyncTaskBase) \
+	NO_API virtual ~UGBWPHAsyncTaskBase();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_66_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_69_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class GBWPHAsyncTaskBase."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GBWPOWERFULHIT_API UClass* StaticClass<class UGBWPHAsyncTaskBase>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_107_DELEGATE \
+static void FTimerHandleDelegate_DelegateWrapper(const FMulticastScriptDelegate& TimerHandleDelegate, FTimerHandle TimerHandle, UObject* ParameterObject, float Time, float DeltaTime, UGBWPHAsync_SetTimer* TimerTask);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCompletedEvent); \
+	DECLARE_FUNCTION(execStop); \
+	DECLARE_FUNCTION(execSetTimer);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCompletedEvent); \
+	DECLARE_FUNCTION(execStop); \
+	DECLARE_FUNCTION(execSetTimer);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsync_SetTimer(); \
+	friend struct Z_Construct_UClass_UGBWPHAsync_SetTimer_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsync_SetTimer, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsync_SetTimer)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_INCLASS \
+private: \
+	static void StaticRegisterNativesUGBWPHAsync_SetTimer(); \
+	friend struct Z_Construct_UClass_UGBWPHAsync_SetTimer_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPHAsync_SetTimer, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), NO_API) \
+	DECLARE_SERIALIZER(UGBWPHAsync_SetTimer)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGBWPHAsync_SetTimer(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPHAsync_SetTimer) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsync_SetTimer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsync_SetTimer); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsync_SetTimer(UGBWPHAsync_SetTimer&&); \
+	NO_API UGBWPHAsync_SetTimer(const UGBWPHAsync_SetTimer&); \
+public:
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGBWPHAsync_SetTimer(UGBWPHAsync_SetTimer&&); \
+	NO_API UGBWPHAsync_SetTimer(const UGBWPHAsync_SetTimer&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGBWPHAsync_SetTimer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPHAsync_SetTimer); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGBWPHAsync_SetTimer)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_98_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_108_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GBWPOWERFULHIT_API UClass* StaticClass<class UGBWPHAsync_SetTimer>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_RPC_WRAPPERS \
+	virtual bool GetRootMotionScale_Implementation(float& RootMotionScale) { return false; }; \
+	virtual bool GetRootMotionGravitySetting_Implementation(bool& InRootMotionIgnoresGravity, float& InGravitationalAcceleration_MS2) { return false; }; \
+ \
+	DECLARE_FUNCTION(execGetRootMotionScale); \
+	DECLARE_FUNCTION(execGetRootMotionGravitySetting);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool GetRootMotionScale_Implementation(float& RootMotionScale) { return false; }; \
+	virtual bool GetRootMotionGravitySetting_Implementation(bool& InRootMotionIgnoresGravity, float& InGravitationalAcceleration_MS2) { return false; }; \
+ \
+	DECLARE_FUNCTION(execGetRootMotionScale); \
+	DECLARE_FUNCTION(execGetRootMotionGravitySetting);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWBPI_MontagePlay) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(GBWPOWERFULHIT_API, UGBWBPI_MontagePlay); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWBPI_MontagePlay); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(UGBWBPI_MontagePlay&&); \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(const UGBWBPI_MontagePlay&); \
+public: \
+	GBWPOWERFULHIT_API virtual ~UGBWBPI_MontagePlay();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(UGBWBPI_MontagePlay&&); \
+	GBWPOWERFULHIT_API UGBWBPI_MontagePlay(const UGBWBPI_MontagePlay&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(GBWPOWERFULHIT_API, UGBWBPI_MontagePlay); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWBPI_MontagePlay); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWBPI_MontagePlay) \
+	GBWPOWERFULHIT_API virtual ~UGBWBPI_MontagePlay();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_GENERATED_UINTERFACE_BODY() \
+private: \
+	static void StaticRegisterNativesUGBWBPI_MontagePlay(); \
+	friend struct Z_Construct_UClass_UGBWBPI_MontagePlay_Statics; \
+public: \
+	DECLARE_CLASS(UGBWBPI_MontagePlay, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), GBWPOWERFULHIT_API) \
+	DECLARE_SERIALIZER(UGBWBPI_MontagePlay)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_GENERATED_BODY_LEGACY \
+		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_GENERATED_UINTERFACE_BODY() \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_STANDARD_CONSTRUCTORS \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_GENERATED_BODY \
+	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_GENERATED_UINTERFACE_BODY() \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_ENHANCED_CONSTRUCTORS \
+private: \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_INCLASS_IINTERFACE_NO_PURE_DECLS \
+protected: \
+	virtual ~IGBWBPI_MontagePlay() {} \
+public: \
+	typedef UGBWBPI_MontagePlay UClassType; \
+	typedef IGBWBPI_MontagePlay ThisClass; \
+	static bool Execute_GetRootMotionGravitySetting(UObject* O, bool& InRootMotionIgnoresGravity, float& InGravitationalAcceleration_MS2); \
+	static bool Execute_GetRootMotionScale(UObject* O, float& RootMotionScale); \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_INCLASS_IINTERFACE \
+protected: \
+	virtual ~IGBWBPI_MontagePlay() {} \
+public: \
+	typedef UGBWBPI_MontagePlay UClassType; \
+	typedef IGBWBPI_MontagePlay ThisClass; \
+	static bool Execute_GetRootMotionGravitySetting(UObject* O, bool& InRootMotionIgnoresGravity, float& InGravitationalAcceleration_MS2); \
+	static bool Execute_GetRootMotionScale(UObject* O, float& RootMotionScale); \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_197_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_204_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_INCLASS_IINTERFACE \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_204_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_200_INCLASS_IINTERFACE_NO_PURE_DECLS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GBWPOWERFULHIT_API UClass* StaticClass<class UGBWBPI_MontagePlay>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_215_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGBWPH_MontagePlayState_Statics; \
+	GBWPOWERFULHIT_API static class UScriptStruct* StaticStruct();
+
+
+template<> GBWPOWERFULHIT_API UScriptStruct* StaticStruct<struct FGBWPH_MontagePlayState>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_247_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGBWPH_RMSInfo_FromMesh_Statics; \
+	GBWPOWERFULHIT_API static class UScriptStruct* StaticStruct();
+
+
+template<> GBWPOWERFULHIT_API UScriptStruct* StaticStruct<struct FGBWPH_RMSInfo_FromMesh>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_281_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGBWPHRootMotionSource_FromSKMesh_Statics; \
+	static class UScriptStruct* StaticStruct(); \
+	typedef FRootMotionSource Super;
+
+
+template<> GBWPOWERFULHIT_API UScriptStruct* StaticStruct<struct FGBWPHRootMotionSource_FromSKMesh>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_410_DELEGATE \
+GBWPOWERFULHIT_API void FOnMontagePlayDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnMontagePlayDelegate, FName NotifyName, FGBWPH_MontagePlayState MontagePlayState, UObject* ParameterObject);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnNotifyEndReceived); \
+	DECLARE_FUNCTION(execOnNotifyBeginReceived); \
+	DECLARE_FUNCTION(execOnMontageEnded); \
+	DECLARE_FUNCTION(execOnMontageBlendingOut); \
+	DECLARE_FUNCTION(execDisableRMS_BySKMesh); \
+	DECLARE_FUNCTION(execApplyRMS_BySKMesh); \
+	DECLARE_FUNCTION(execCreateProxyObjectForPlayMontage);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnNotifyEndReceived); \
+	DECLARE_FUNCTION(execOnNotifyBeginReceived); \
+	DECLARE_FUNCTION(execOnMontageEnded); \
+	DECLARE_FUNCTION(execOnMontageBlendingOut); \
+	DECLARE_FUNCTION(execDisableRMS_BySKMesh); \
+	DECLARE_FUNCTION(execApplyRMS_BySKMesh); \
+	DECLARE_FUNCTION(execCreateProxyObjectForPlayMontage);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGBWPlayMontageCallbackProxy(); \
+	friend struct Z_Construct_UClass_UGBWPlayMontageCallbackProxy_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPlayMontageCallbackProxy, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), GBWPOWERFULHIT_API) \
+	DECLARE_SERIALIZER(UGBWPlayMontageCallbackProxy)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_INCLASS \
+private: \
+	static void StaticRegisterNativesUGBWPlayMontageCallbackProxy(); \
+	friend struct Z_Construct_UClass_UGBWPlayMontageCallbackProxy_Statics; \
+public: \
+	DECLARE_CLASS(UGBWPlayMontageCallbackProxy, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GBWPowerfulHit"), GBWPOWERFULHIT_API) \
+	DECLARE_SERIALIZER(UGBWPlayMontageCallbackProxy)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPlayMontageCallbackProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(GBWPOWERFULHIT_API, UGBWPlayMontageCallbackProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPlayMontageCallbackProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(UGBWPlayMontageCallbackProxy&&); \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(const UGBWPlayMontageCallbackProxy&); \
+public: \
+	GBWPOWERFULHIT_API virtual ~UGBWPlayMontageCallbackProxy();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(UGBWPlayMontageCallbackProxy&&); \
+	GBWPOWERFULHIT_API UGBWPlayMontageCallbackProxy(const UGBWPlayMontageCallbackProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(GBWPOWERFULHIT_API, UGBWPlayMontageCallbackProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGBWPlayMontageCallbackProxy); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGBWPlayMontageCallbackProxy) \
+	GBWPOWERFULHIT_API virtual ~UGBWPlayMontageCallbackProxy();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_411_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h_414_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class GBWPlayMontageCallbackProxy."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GBWPOWERFULHIT_API UClass* StaticClass<class UGBWPlayMontageCallbackProxy>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GBWPowerfulHit_Source_GBWPowerfulHit_Public_GBWPHAsyncTaskBase_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
