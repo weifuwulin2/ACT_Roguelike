@@ -1,0 +1,10 @@
+{
+	"BuildId": "25360045",
+	"Modules": 
+	{
+		"GBWFlowMove": "UnrealEditor-GBWFlowMove.dll",
+		"GBWPowerfulHit": "UnrealEditor-GBWPowerfulHit.dll",
+		"GBWPowerfulHitEditor": "UnrealEditor-GBWPowerfulHitEditor.dll",
+		"GBWRMS": "UnrealEditor-GBWRMS.dll"
+	}
+}
