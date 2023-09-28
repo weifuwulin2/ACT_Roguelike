@@ -72,3 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/1_Animations/Character/Hit_React/HitReactMonster_UE_Montage1.uasset
+Content/1_Animations/Character/Hit_React/StandingReactSmallFromHeadshot_3__UE2.uasset
